@@ -1,0 +1,5 @@
+#!/bin/sh
+#i - interactive - Keep STDIN open even if not attached
+#t - allocated a pseudo-TTY
+#rm - removes the container when it exits
+docker run -it --rm alpine /bin/sh
